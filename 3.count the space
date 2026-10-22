@@ -1,0 +1,36 @@
+import java.sql.SQLOutput;
+
+public class Main {
+    public static void main(String[] args) {
+
+        // count upper and lower count
+
+
+
+      int spaceCount=0;
+
+      String s = "Got JoB at ZOHO";
+
+
+      for(int i =0;i<s.length();i++) {
+
+          char ch = s.charAt(i);
+
+          if(ch==' '){
+
+              spaceCount++;
+          }
+
+
+      }
+
+        System.out.println(spaceCount);
+
+
+
+
+    }
+}C:\Users\HP\.jdks\openjdk-23.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=54286:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\HP\Downloads\helloworld2\untitled27\out\production\untitled27 Main
+3
+
+Process finished with exit code 0
