@@ -1,0 +1,28 @@
+public class Main {
+    public static void main(String[] args) {
+
+        String s = "abc";
+        String k = "";
+
+        for(int i=0;i<s.length();i++){
+
+            System.out.println(s.charAt(i));
+
+            char ch = s.charAt(i);
+
+            for(int j=i+1;j<s.length();j++){
+
+                System.out.println(""+ch+s.charAt(j));
+
+            }
+        }
+    }
+}C:\Users\HP\.jdks\openjdk-23.0.2\bin\java.exe "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\lib\idea_rt.jar=64631:C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath C:\Users\HP\Downloads\helloworld2\untitled28\out\production\untitled28 Main
+a
+ab
+ac
+b
+bc
+c
+
+Process finished with exit code 0
